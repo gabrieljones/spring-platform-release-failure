@@ -5,8 +5,8 @@ plugins {
 
 group = "org.example"
 
-val jacksonBomVersion = "latest.release" // breaks
-//val jacksonBomVersion = "[2,3[" // works
+//val jacksonBomVersion = "latest.release" // breaks
+val jacksonBomVersion = "[2,3[" // works
 
 dependencies {
   implementation(platform("com.fasterxml.jackson:jackson-bom:$jacksonBomVersion"))
